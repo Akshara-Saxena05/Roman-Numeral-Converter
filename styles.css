@@ -1,0 +1,67 @@
+body{
+  background-color: brown;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  text-align: center;
+  width: 90%;
+  padding: 15px auto;
+  max-width: 500px;
+  background-color: white;
+  margin: auto 25px;
+}
+fieldset{
+  border: 0 none;
+  margin: 10px 20px;
+  padding: 25px;
+}
+label{
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input{
+  display: block;
+  font-size: 2.5rem;
+  width: 100%;
+  padding: 6px 12px;
+  margin: 10px 0;
+  line-height: 1.4;
+  color: black;
+}
+button{
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  padding: 10px 16px;
+}
+.output{
+  width: 85%;
+  text-align: center;
+  height: 1.5rem;
+  max-width: 500px;
+  min-height: 55px;
+  margin-top: 25px;
+  padding: 15px;
+  overflow-wrap: break-word;
+  background-color: white;
+  border: 0 none;
+  font-size: 2rem;
+}
+.hidden{
+  display: none;
+}
+.alert {
+  font-size: 2rem;
+}
